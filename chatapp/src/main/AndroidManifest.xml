@@ -3,9 +3,9 @@
           package="jiguang.chat">
 
     <permission
-        android:name="${applicationId}.permission.JPUSH_MESSAGE"
+        android:name="com.ttop.permission.JPUSH_MESSAGE"
         android:protectionLevel="signature"/> <!-- Required -->
-    <uses-permission android:name="${applicationId}.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="com.ttop.permission.JPUSH_MESSAGE"/>
     <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -381,7 +381,7 @@
 
         <provider
             android:name="com.activeandroid.content.ContentProvider"
-            android:authorities="${applicationId}"
+            android:authorities="com.ttop"
             android:exported="false"/>
     </application>
 
